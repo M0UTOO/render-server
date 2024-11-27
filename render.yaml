@@ -4,7 +4,7 @@ services:
     name: web-app
     runtime: node
     repo: https://github.com/M0UTOO/render-server
-    buildCommand: "npm install; npm run build"
+    buildCommand: "npm install"
     startCommand: "npm run start"
     envVars:
       - key: DATABASE_URL # Sets DATABASE_URL to the connection string of the django-app-db database
